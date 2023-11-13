@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Toys</title>
+</head>
+<body>
+<h1>Your current Toys:</h1>
+{%for toy in toys%}
+<ol>
+  <li><a href="#">{{toy.name}}</a></li>
+</ol>
+{%endfor%}
+</body>
+</html>
